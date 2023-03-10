@@ -1,6 +1,7 @@
 *{
 	margin: 0px;
 	padding: 0px;
+	text-decoration: none;
 }
 
 body{
@@ -42,7 +43,7 @@ li a{
 	color: #57FFDC;
 }
 
-a:hover{
+#navegacao a:hover{
 	color: #1c7a6e;
 	border-bottom: 2px solid #1c7a6e;
 }
@@ -55,7 +56,7 @@ img{
 	border-bottom: 2px solid #2b393d;
 }
 
-/*---------------------------Parte 1----------------------------*/
+/*-------------------------Parte 1 Home------------------------*/
 
 #nome-home1{
 	position: absolute;
@@ -70,15 +71,43 @@ img{
 }
 h6{
 	color: #57FFDC;
-
 }
 
 .img-home1{
 	position: relative;
- 	 margin-bottom: -3px;
+ 	margin-bottom: -3px;
 
 }
-/*---------------------------Parte 2-.img-home2-----------------*/
+
+#div-saiba-mais{
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	right: 100px;
+	top: 70%;
+	border-radius: 20px;
+	border: 2px solid #1c7a6e;
+}
+
+#botao{
+	border-radius: 20px;
+	width: 200px;
+	height: 50px;
+	background: #57FFDC;
+
+}
+
+#botao, a{
+	color: #141414;
+	font-size: 1.2em;
+}
+
+
+#botao:hover{
+	background: #1c7a6e;
+}
+
+/*------------------Parte 2 Home -.img-home2-----------------*/
 
 .img-home2{
 	position: relative;
@@ -93,7 +122,7 @@ h6{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 900px;
+  width: 1000px;
   height: 400px;
 }
 
@@ -105,17 +134,14 @@ h6{
 }
 
 .caixa1, .caixa2 {
-  /* adicionando margem direita para separar as caixas */
   margin-right: 40px;
 }
 
-.caixa2 {
-  /* alterando a cor de fundo para diferenciar */
-  background-color: rgb(15, 64, 57, 0.9);
-}
-
-.caixa3 {
-  background-color: rgb(15, 64, 57, 0.9);
+h2{
+	font-family: "hk grotesk Light", Helvetica, sans-serif;
+	color: #57FFDC;
+	text-align: center;
+	margin: 10px;
 }
 
 
