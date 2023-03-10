@@ -5,32 +5,24 @@
 
 body{
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	background: #F5FFFA;
+	background: #141414;;
 }
 
-#conteiner{
-	/*border: 2px solid red;*/
-	width: 100%;
-	height: 200px;
-    margin: 0 auto;
-	background: #fff url(imagens/img2.png);
-}
-#topo{
-	/*background: url(imagens/img3.png) no-repeat center;       inserir o logo*/
-	padding: 30px;
-	height: 100px;
-}
 /*-------barra de navegação----------*/
 
-#barra-navegacao{
-	/*border: 2px solid red;*/
+#barra-superior{
+	position: relative;
+	/*border: 3px solid yellow;*/
 	width: 100%;
-	height: 50px;
+	height: 100px;
 	margin: 0px auto;
-	background: #6495ED;
+	border-bottom: 2px solid #2b393d;
+	background: #141414;
 }
 
 ul{
+	float: center;
+	width: 600px;
 	margin: 0px auto;
 	display: table;
 	padding: 0px;
@@ -42,28 +34,97 @@ ul li{
 }
 
 li a{
-	font-size: 1.1em;
-	padding: 10px 50px;
+	margin: 0px 43px;
+	font-size: 1.3em;
+	padding: 10px 10px;
 	text-decoration: none;
-	line-height: 50px;
+	line-height: 100px;
+	color: #57FFDC;
+}
+
+a:hover{
+	color: #1c7a6e;
+	border-bottom: 2px solid #1c7a6e;
+}
+/*--------------configuração do tamanha da tela----------------*/
+
+
+img{
+	width: 100%;
+	height: auto;
+	border-bottom: 2px solid #2b393d;
+}
+
+/*---------------------------Parte 1----------------------------*/
+
+#nome-home1{
+	position: absolute;
+	padding: 10px;
+	width: 45%;
+	height: 200px;
+	font-family: "hk grotesk bold", Helvetica, sans-serif;
+	font-size: 2.5em;
 	color: #fff;
-	background: url(imagens/img4.png) no-repeat left;
+	left: 40px;
+	top: 30px;
 }
-#primeiro a{
-	background: none;
+h6{
+	color: #57FFDC;
+
 }
 
-ul a:hover{
-	color: #00008B;
-}
-/*------------------------------------------------------------*/
-/*conteudo*/
+.img-home1{
+	position: relative;
+ 	 margin-bottom: -3px;
 
-img {
-   max-width: 100%;
-   height: auto;
+}
+/*---------------------------Parte 2-.img-home2-----------------*/
+
+.img-home2{
+	position: relative;
+ 	 margin-bottom: -3.5px;
 }
 
-/*------------------------------------------------------------*/
-/*Rodapé*/
+#caixa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 900px;
+  height: 400px;
+}
+
+.caixa1, .caixa2, .caixa3{
+  width: 300px;
+  height: 400px;
+  background-color: rgb(15, 64, 57, 0.9);
+  border-radius: 20px;
+}
+
+.caixa1, .caixa2 {
+  /* adicionando margem direita para separar as caixas */
+  margin-right: 40px;
+}
+
+.caixa2 {
+  /* alterando a cor de fundo para diferenciar */
+  background-color: rgb(15, 64, 57, 0.9);
+}
+
+.caixa3 {
+  background-color: rgb(15, 64, 57, 0.9);
+}
+
+
+
+/*---------------------------Parte 3---------------------------*/
+
+
+
+
+/*--------------------------------Rodapé----------------------------*/
+
 
