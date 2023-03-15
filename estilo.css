@@ -147,7 +147,67 @@ h2{
 
 
 /*---------------------------Parte 3---------------------------*/
+.img-home3{
+	position: relative;
+}
 
+#home3-trabalhar{
+	position: absolute;
+	top: 40%;
+	font-size: 4em;
+	color: #fff;
+	margin-left: 50px;
+}
+#contato{
+	position: absolute;
+	width: 500px;
+	height: 320px;
+	right: 100px;
+	top: 140px;
+}
+.email{
+	width: 460px;
+	height: 90px;
+	margin: 10px 20px;
+}
+
+.telefone{
+	width: 460px;
+	height: 90px;
+	margin: 10px 20px;
+}
+
+.endereco{
+	width: 460px;
+	height: 90px;
+	margin: 10px 20px;
+}
+
+.img-tamanho{
+	width: 90px;
+	margin: -20px;
+	border-bottom: 0px;
+	float: left;
+}
+.conteudo-titulo{
+	width: 300px;
+	height: 70px;
+	margin-left: 140px;
+	line-height: 20px;
+}
+
+.titulo{
+	margin-top: 20px;
+	padding-bottom: 10px;
+	color: #57FFDC;
+	text-transform: uppercase;
+	font-family: "hk grotesk Light", Helvetica, sans-serif;
+}
+
+.conteudo-contato{
+	color: #fff;
+	font-family: "hk grotesk Light", Helvetica, sans-serif;
+}
 
 
 
