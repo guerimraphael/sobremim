@@ -123,7 +123,6 @@ h6{
   transform: translate(-50%, -50%);
   width: 1000px;
   height: 400px;
-  border: 1px solid red;
 }
 
 #resumo-home{
@@ -135,16 +134,17 @@ h6{
   left: 50%;
   transform: translate(-50%, -50%);
   width: 1200px;
-  height: 400px;
+  height: 450px;
   background-color: rgb(15, 64, 57, 0.9);
   border-radius: 20px;
 }
 
 #resumo{
+	text-align: justify;
 	color: #fff;
 	line-height: 40px;
 	font-size: 1.5em;
-	padding: 30px;
+	padding: 50px;
 }
 
 .caixa1, .caixa2, .caixa3{
@@ -160,7 +160,7 @@ h6{
 
 h2{
 	font-family: "hk grotesk Light", Helvetica, sans-serif;
-	color: #57FFDC;
+	color: #FFF;
 	text-align: center;
 	margin: 10px;
 }
