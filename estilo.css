@@ -144,8 +144,12 @@ h2,
 	display: inline-block;
 	/*border: solid 1px yellow;*/
 	width: 39%;
-	height: 80%;
+	height: 60%;
+	margin-top: 20px;
 	background-image: url(imagens/img-livreler.png);
+	background-size: contain; /* Ajusta a imagem para caber dentro da div */
+  	background-repeat: no-repeat; /* Impede a repetição da imagem */
+  	background-position: center; /* Centraliza a imagem dentro da div */
 }
 
 /*============================FIM*/
