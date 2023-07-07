@@ -1,17 +1,48 @@
-*{
+/*======================================CONFIGURAÇÃO GERAL DA PÁGINA*/
+
+* {
 	margin: 0px;
 	padding: 0px;
 	text-decoration: none;
 }
 
-body{
+body {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	background: #141414;;
+	background: #141414;
 }
 
-/*-------barra de navegação----------*/
+.home,
+.projeto,
+.dicas,
+.contato {
+	/* aqui define o padão das imagens a serem exibidas no fundo de cada aba home, projetos, dicas, contato*/
+	border-bottom: #2b393d solid 1px;
+	width: 99% auto;
+	height: 600px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	background-color: #141414;
+}
 
-#barra-superior{
+p{
+	color: #fff;
+	margin: 16% 10px;
+	font-size: 19px;
+	line-height: 40px;
+	text-align: justify;
+}
+
+a{
+	color: #57FFDC;
+}
+
+/*===============================FIM*/
+
+
+/*======================================INÍCIO BARRA DE NAVEGAÇÃO*/
+
+#barra-superior {
 	position: relative;
 	/*border: 3px solid yellow;*/
 	width: 100%;
@@ -21,19 +52,20 @@ body{
 	background: #141414;
 }
 
-ul{
+ul {
 	float: center;
 	width: 700px;
 	margin: 0px auto;
 	display: table;
 	padding: 0px;
-	list-style-type: none;}
+	list-style-type: none;
+}
 
-ul li{
+ul li {
 	float: left;
 }
 
-li a{
+li a {
 	margin: 0px 43px;
 	font-size: 1.3em;
 	padding: 10px 10px;
@@ -42,196 +74,113 @@ li a{
 	color: #57FFDC;
 }
 
-#navegacao a:hover{
+#navegacao a:hover {
 	color: #1c7a6e;
 	border-bottom: 2px solid #1c7a6e;
 }
-/*--------------configuração do tamanha da tela----------------*/
+
+/*============================FIM*/
 
 
-img{
-	width: 100%;
-	height: auto;
-	border-bottom: 2px solid #2b393d;
+/*======================================CONFIGURAÇÃO DA ABA HOME*/
+h1,
+#nome-home {
+	font-size: 5em;
+	color: white;
+	padding: 30px 0px 0px 80px
 }
 
-/*-------------------------Parte 1 Home------------------------*/
-
-#nome-home1{
-	position: absolute;
-	padding: 10px;
-	width: 45%;
-	height: 200px;
-	font-family: "hk grotesk bold", Helvetica, sans-serif;
-	font-size: 2.5em;
-	color: #fff;
-	left: 40px;
-	top: 30px;
-}
-h6{
+h2,
+#dev-home {
+	padding: 30px 0px 0px 80px;
+	font-size: 2em;
 	color: #57FFDC;
 }
 
-.img-home1{
-	position: relative;
- 	margin-bottom: -3px;
-
+.home1 {
+	background-image: url(imagens/img1.png);
 }
 
-#div-saiba-mais{
-	position: absolute;
-	width: 200px;
-	height: 50px;
-	right: 100px;
-	top: 70%;
-	border-radius: 20px;
-	border: 2px solid #1c7a6e;
+.home2 {
+	background-image: url(imagens/img1.png);
 }
 
-#botao{
-	border-radius: 20px;
-	width: 200px;
-	height: 50px;
-	background: #57FFDC;
-
+.home3 {
+	background-image: url(imagens/img1.png);
 }
 
-#botao, a{
-	color: #141414;
-	font-size: 1.2em;
+/*============================FIM*/
+
+
+/*======================================CONFIGURAÇÃO DA ABA PROJETOS*/
+.proj1 {
+	background-image: url(imagens/img2.png);
+	padding: 0px;
 }
 
-
-#botao:hover{
-	background: #1c7a6e;
+.proj2 {
+	background-image: url(imagens/img2.png);
 }
 
-/*------------------Parte 2 Home -.img-home2-----------------*/
-
-.img-home2{
-	position: relative;
- 	 margin-bottom: -3.5px;
+.proj3 {
+	background-image: url(imagens/img2.png);
 }
 
-#caixa {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 1000px;
-  height: 400px;
+#projeto-um{
+	/*border: solid 1px red;*/
+	width: 90%;
+	height: 90%;
+	margin: 0 auto;
+	margin-top: 10px;
 }
 
-#resumo-home{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 1200px;
-  height: 450px;
-  background-color: rgb(15, 64, 57, 0.9);
-  border-radius: 20px;
+#introducao-proj1{
+	display: inline-block;
+	/*border: solid 1px blue;*/
+	width: 60%;
+	height: 100%;
+}
+#img-projeto-um{
+	display: inline-block;
+	/*border: solid 1px yellow;*/
+	width: 39%;
+	height: 80%;
+	background-image: url(imagens/img-livreler.png);
 }
 
-#resumo{
-	text-align: justify;
-	color: #fff;
-	line-height: 40px;
-	font-size: 1.5em;
-	padding: 50px;
+/*============================FIM*/
+
+
+
+/*======================================CONFIGURAÇÃO DA ABA DICAS*/
+.dicas1 {
+	background-image: url(imagens/img3.png);
 }
 
-.caixa1, .caixa2, .caixa3{
-  width: 300px;
-  height: 400px;
-  background-color: rgb(15, 64, 57, 0.9);
-  border-radius: 20px;
+.dicas2 {
+	background-image: url(imagens/img3.png);
 }
 
-.caixa1, .caixa2 {
-  margin-right: 40px;
+.dicas3 {
+	background-image: url(imagens/img3.png);
 }
 
-h2{
-	font-family: "hk grotesk Light", Helvetica, sans-serif;
-	color: #FFF;
-	text-align: center;
-	margin: 10px;
+/*============================FIM*/
+
+
+
+/*======================================CONFIGURAÇÃO DA ABA CONTATOS*/
+
+.contato1 {
+	background-image: url(imagens/img4.png);
 }
 
-
-
-/*---------------------------Parte 3---------------------------*/
-.img-home3{
-	position: relative;
+.contato2 {
+	background-image: url(imagens/img4.png);
 }
 
-#home3-trabalhar{
-	position: absolute;
-	top: 40%;
-	font-size: 4em;
-	color: #fff;
-	margin-left: 50px;
-}
-#contato{
-	position: absolute;
-	width: 500px;
-	height: 320px;
-	right: 100px;
-	top: 140px;
-}
-.email{
-	width: 460px;
-	height: 90px;
-	margin: 10px 20px;
+.contato3 {
+	background-image: url(imagens/img4.png);
 }
 
-.telefone{
-	width: 460px;
-	height: 90px;
-	margin: 10px 20px;
-}
-
-.endereco{
-	width: 460px;
-	height: 90px;
-	margin: 10px 20px;
-}
-
-.img-tamanho{
-	width: 90px;
-	margin: -20px;
-	border-bottom: 0px;
-	float: left;
-}
-.conteudo-titulo{
-	width: 300px;
-	height: 70px;
-	margin-left: 140px;
-	line-height: 20px;
-}
-
-.titulo{
-	margin-top: 20px;
-	padding-bottom: 10px;
-	color: #57FFDC;
-	text-transform: uppercase;
-	font-family: "hk grotesk Light", Helvetica, sans-serif;
-}
-
-.conteudo-contato{
-	color: #fff;
-	font-family: "hk grotesk Light", Helvetica, sans-serif;
-}
-
-
-
-/*--------------------------------Rodapé----------------------------*/
-
-
+/*============================FIM*/
