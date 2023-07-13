@@ -18,7 +18,7 @@ body {
 	/* aqui define o padão das imagens a serem exibidas no fundo de cada aba home, projetos, dicas, contato*/
 	border-bottom: #2b393d solid 1px;
 	width: 99% auto;
-	height: 600px;
+	height: 600PX;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100%;
@@ -27,14 +27,6 @@ body {
 
 p{
 	color: #fff;
-	margin: 16% 10px;
-	font-size: 19px;
-	line-height: 40px;
-	text-align: justify;
-}
-
-a{
-	color: #57FFDC;
 }
 
 /*===============================FIM*/
@@ -77,114 +69,6 @@ li a {
 #navegacao a:hover {
 	color: #1c7a6e;
 	border-bottom: 2px solid #1c7a6e;
-}
-
-/*============================FIM*/
-
-
-/*======================================CONFIGURAÇÃO DA ABA HOME*/
-h1,
-#nome-home {
-	font-size: 5em;
-	color: white;
-	padding: 30px 0px 0px 80px
-}
-
-h2,
-#dev-home {
-	padding: 30px 0px 0px 80px;
-	font-size: 2em;
-	color: #57FFDC;
-}
-
-.home1 {
-	background-image: url(imagens/img1.png);
-}
-
-.home2 {
-	background-image: url(imagens/img1.png);
-}
-
-.home3 {
-	background-image: url(imagens/img1.png);
-}
-
-/*============================FIM*/
-
-
-/*======================================CONFIGURAÇÃO DA ABA PROJETOS*/
-.proj1 {
-	background-image: url(imagens/img2.png);
-	padding: 0px;
-}
-
-.proj2 {
-	background-image: url(imagens/img2.png);
-}
-
-.proj3 {
-	background-image: url(imagens/img2.png);
-}
-
-#projeto-um{
-	/*border: solid 1px red;*/
-	width: 90%;
-	height: 90%;
-	margin: 0 auto;
-	margin-top: 10px;
-}
-
-#introducao-proj1{
-	display: inline-block;
-	/*border: solid 1px blue;*/
-	width: 60%;
-	height: 100%;
-}
-#img-projeto-um{
-	display: inline-block;
-	/*border: solid 1px yellow;*/
-	width: 39%;
-	height: 60%;
-	margin-top: 20px;
-	background-image: url(imagens/img-livreler.png);
-	background-size: contain; /* Ajusta a imagem para caber dentro da div */
-  	background-repeat: no-repeat; /* Impede a repetição da imagem */
-  	background-position: center; /* Centraliza a imagem dentro da div */
-}
-
-/*============================FIM*/
-
-
-
-/*======================================CONFIGURAÇÃO DA ABA DICAS*/
-.dicas1 {
-	background-image: url(imagens/img3.png);
-}
-
-.dicas2 {
-	background-image: url(imagens/img3.png);
-}
-
-.dicas3 {
-	background-image: url(imagens/img3.png);
-}
-
-/*============================FIM*/
-
-
-
-/*======================================CONFIGURAÇÃO DA ABA CONTATOS*/
-
-.contato1 {
-	background-image: url(imagens/img4.png);
-}
-
-.contato2 {
-	background-image: url(imagens/img4.png);
-}
-
-.contato3 {
-	background-image: url(imagens/img4.png);
 }
 
 /*============================FIM*/

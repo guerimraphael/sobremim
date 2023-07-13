@@ -1,0 +1,61 @@
+/*======================================CONFIGURAÇÃO DA ABA PROJETOS*/
+.proj1 {
+	background-image: url(imagens/img2.png);
+	padding: 0px;
+}
+
+.proj2 {
+	background-image: url(imagens/img3.png);
+}
+
+/*.proj3 {
+	background-image: url(imagens/img2.png);
+}*/
+
+#projeto-um{
+	/*border: solid 1px red;*/
+	width: 90%;
+	height: 90%;
+	margin: 0 auto;
+	/*border: solid 1px red;*/
+}
+
+#introducao-proj1{
+	display: inline-block;
+	/*border: solid 1px blue;*/
+	width: 60%;
+	height: 100%;
+}
+#img-projeto-um{
+	float: right;
+	/*border: solid 1px yellow;*/
+	width: 25%;
+	height: 100%;
+	background-image: url(imagens/projetos/img-projeto-um.png);
+	background-size: contain; /* Ajusta a imagem para caber dentro da div */
+  	background-repeat: no-repeat; /* Impede a repetição da imagem */
+  	background-position: center; /* Centraliza a imagem dentro da div */
+}
+
+#introducao-livreler, p{
+	background-color: rgba(87, 255, 220, 0.8);
+	border-radius: 20px;
+	padding: 30px 20px;
+	margin: 13% 0px;
+	font-size: 20px;
+	text-align: justify;
+	line-height: 150%;
+	color: #000;
+	font-weight: bold
+}
+
+a{
+	color: #093969;
+	font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+a:hover{
+	color: #ffffff;
+}
+
+/*============================FIM*/
