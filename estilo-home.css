@@ -19,10 +19,28 @@ h2,
 
 .home2 {
 	background-image: url(imagens/img2.png);
+	padding: 80px;
 }
 
 .home3 {
 	background-image: url(imagens/img3.png);
+}
+
+#introducao-home{
+	width: 90%;
+	height: 75%;
+	border-radius: 20px;
+	background-color: rgba(87, 255, 220, 0.8);
+	margin: 0 auto;
+	border: solid 2px white;
+}
+#introducao-p{
+	font-size: 22px;
+	text-align: justify;
+	line-height: 180%;
+	color: #000;
+	font-weight: bold;
+	padding: 17px;
 }
 
 /*============================FIM*/

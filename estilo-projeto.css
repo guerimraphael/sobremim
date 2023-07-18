@@ -1,6 +1,6 @@
 /*======================================CONFIGURAÇÃO DA ABA PROJETOS*/
 .proj1 {
-	background-image: url(imagens/img2.png);
+	background-image: url(imagens/img4.png);
 	padding: 0px;
 }
 
@@ -38,6 +38,7 @@
 }
 
 #introducao-livreler, p{
+	border: solid 2px white;
 	background-color: rgba(87, 255, 220, 0.8);
 	border-radius: 20px;
 	padding: 30px 20px;
