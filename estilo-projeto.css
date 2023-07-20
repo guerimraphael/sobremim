@@ -20,6 +20,10 @@
 	/*border: solid 1px red;*/
 }
 
+.projeto{
+	background-size: cover;
+}
+
 #introducao-proj1{
 	display: inline-block;
 	/*border: solid 1px blue;*/
@@ -39,7 +43,7 @@
 
 #introducao-livreler, p{
 	border: solid 2px white;
-	background-color: rgba(87, 255, 220, 0.8);
+	background-color: rgba(87, 255, 220, 0.7);
 	border-radius: 20px;
 	padding: 30px 20px;
 	margin: 13% 0px;
@@ -47,7 +51,7 @@
 	text-align: justify;
 	line-height: 150%;
 	color: #000;
-	font-weight: bold
+	font-weight: bold;
 }
 
 a{
