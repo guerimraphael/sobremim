@@ -1,0 +1,85 @@
+/*======================================CONFIGURAÇÃO DA ABA HOME*/
+.home{
+	background-size: cover;
+}
+
+/*-----------------------PARETE 1*/
+.home1 {
+	background-image: url(imagens/img1.png);
+}
+
+h1, #nome-home {
+	font-size: 5em;
+	color: white;
+	padding: 30px 0px 0px 80px
+}
+
+
+
+#botão-home-proj{
+	background-color: #57FFDC;
+	width: 200px;
+	height: 45px;
+	border-radius: 20px;
+	border: solid 2px white;
+	float: right;
+	font-size: 30px;
+	margin-right: 150px;
+	margin-top: 300px;
+	font-weight:bold;
+}
+
+#botão-home-proj:hover{
+	background-color:white;
+	border: solid 5px #57FFDC;
+	color: #141414;
+	width: 203px;
+	height: 48px;
+}
+
+/*-----------------------PARETE 2*/
+.home2 {
+	background-image: url(imagens/img2.png);
+	padding: 10px;
+}
+
+#introducao-p{
+	font-size: 22px;
+	text-align: justify;
+	line-height: 180%;
+	color: #000;
+	font-weight: bold;
+	padding: 17px;
+	background-color: rgba(87, 255, 220, 0.7);
+	border: solid 2px #FFF;
+	border-radius: 20px;
+	margin: 90px;
+}
+
+/*-----------------------PARETE 3*/
+.home3 {
+	background-image: url(imagens/img3.png);
+	padding: 10px;
+}
+#habilidade{
+	width: 80%;
+	height: 76%;
+	margin: 5% auto;
+	border: solid 2px red;
+}
+#habilidade-um, #habilidade-dois, #habilidade-tres{
+	width: 300px;
+	height: 450px;
+	border-radius: 20px;
+	background-color: rgba(87, 255, 220, 0.7);
+	border: solid 2px #FFF;
+	display: flex;
+	margin-left: 75px;
+}
+
+/*-----------------------PARETE 4*/
+.home4 {
+	background-image: url(imagens/img9.png);
+	padding: 10px;
+}
+/*============================FIM*/
