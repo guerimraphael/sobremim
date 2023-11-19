@@ -48,68 +48,129 @@ li a {
 /*============================FIM*/
 
 /*=========novo estilo==========*/
-body, html{
+body,
+html {
 	margin: 0;
-	font: 16px "Lato" sans-serif;;
-	color: #777;
+	font: 16px "Lato" sans-serif;
+	color: #ffffff;
 	height: 100%;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	background: #141414;
 }
-.conteudo{
-	background-color: rgb(255, 255, 255);
+
+.conteudo {
+	background-color: #1c7a6e;
 	text-align: justify;
 	padding: 20px 80px;
 }
-h3{
+
+h3 {
 	text-transform: uppercase;
-	color: #111;
+	color: #ffffff;
 	text-align: center;
 	padding: 10px;
 	font-size: 1.9em;
 }
 
-p{
+p {
 	margin-bottom: 20px;
-	color: #000000;
-	font-size: 1.3em;
+	color: #ffffff;
+	font-size: 1.4em;
 	line-height: 35px;
 	font-weight: bold;
 }
-.caixa1, .caixa2, .caixa3, .caixa4{
-position: relative;
-height: 100%;
-background-size: cover;
-opacity: 0.7;
-background-repeat: no-repeat;
-background-position: center;
-background-attachment: fixed;
-}
-.caixa1{
-	background-image: url(imagens/img3.png);
-}
-.caixa2{
-	background-image: url(imagens/img2.png);
-}
-.caixa3{
-	background-image: url(imagens/img3.png);
-}
-.caixa4{
-	background-image: url(imagens/img4.png);
+
+h1, #nome-home {
+	font-size: 5em;
+	color: white;
+	padding: 30px 0px 0px 80px
 }
 
-.conteudo-titulo{
+h2, #dev-home {
+	padding: 30px 0px 0px 80px;
+	font-size: 2em;
+	color: #57FFDC;
+}
+
+.caixa1,
+.caixa2,
+.caixa3,
+.caixa4 {
+	position: relative;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.caixa1 {
+	background-image: url(imagens/img3.png);
+}
+
+.caixa2 {
+	background-image: url(imagens/img10.png);
+}
+
+.caixa3 {
+	background-image: url(imagens/img5.png);
+}
+
+.caixa4 {
+	background-image: url(imagens/img8.png);
+}
+
+.conteudo-titulo {
 	position: absolute;
 	left: 0;
-	top: 50%;
 	width: 100%;
 	text-align: center;
 }
-.conteudo-titulo span.titulo{
+
+.conteudo-titulo span.titulo {
 	color: #fff;
 	background-color: #111;
 	padding: 18px;
 	font-size: 25px;
 	letter-spacing: 5px;
 	text-transform: uppercase;
+}
+
+#fotos {
+	margin-top: 10%;
+}
+
+#home-projeto {
+	width: 90%;
+	height: 550px;
+	margin: 20px auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.proj {
+	margin: 70px auto;
+	width: 300px;
+	height: 400px;
+	background: #ffffff;
+	border-radius: 3%;
+	border: #1c7a6e 3px solid;
+}
+
+#botao-proj {
+	background-color: #57FFDC;
+	width: 70%;
+	height: 60px;
+	border-radius: 20px;
+	border: 2px #57FFDC solid;
+	color: #000000;
+	font-size: 1.2em;
+	letter-spacing: 7px;
+	align-items: center;
+	font-weight: bold;
+}
+
+#botao-proj:hover {
+	border: #1c7a6e 5px solid;
+	color: #ffffff;
 }
